@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.Heading{
+    animation:slide 4s infinite;
+    transition: all ease-in-out;
+    color: rgb(237, 234, 240);
+    /* font-family: 'Dancing Script', cursive; */
+  }
+  @keyframes slide{
+    0%{
+      transform:translateX(-250px);
+    }
+    50%{
+      transform:translateX(50px);
+    }
+  }
+.head1{
+    animation:slide2 5s infinite;
+    transition: all ease-in-out;
+    color: rgb(237, 234, 240);
+    /* font-family: 'Dancing Script', cursive; */
+  }
+  @keyframes slide2{
+    0%{
+      transform:translateX(250px);
+    }
+    50%{
+      transform:translateX(50px);
+    }
+  }
+.head2{
+    animation:slide2 4s infinite;
+    transition: all ease-in-out;
+
+}
+@keyframes slide2{
+    0%{
+      transform:translateX(200px);
+    }
+    50%{
+      transform:translateX(50px);
+    }
+  }
+
+.content:hover{
+  opacity: 1;
+}
+  
