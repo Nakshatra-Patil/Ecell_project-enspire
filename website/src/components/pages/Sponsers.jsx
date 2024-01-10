@@ -17,31 +17,66 @@ export const Sponsers =()=>{
             <div className="wrapper box-border flex items-center justify-center ">
               <div className="Sponsercard m-16 flex flex-col">
                  <img src={spon2} alt="Insyst Labs" width="250px" height="250px" className="m-auto" />
-                  <div className="content text-white w-[250px] h-[250px]  absolute bg-gray-800  flex justify-center items-center flex-col opacity-0 ">
-                     <h1>Name</h1>
+                  <div className="content text-white w-[250px] h-[250px]  absolute bg-orange-800 flex justify-center items-center flex-col opacity-0 ">
+                     <h1 className="text-amber-200 text-2xl">Lensfit</h1>
                   </div>
              
                 </div>
 
             </div>
 
-            <div className="Sponsercard m-16">
-             <img src={spon3} alt="Blogadda" width="250px" height="250px"/>
+            <div className="wrapper box-border flex items-center   justify-center ">
+              <div className="Sponsercard m-16 flex flex-col">
+                <img src={spon3} alt="Blogadda" width="250px" height="250px" className="m-auto"/>
+                   <div className="content text-white w-[250px] h-[250px]  absolute  bg-orange-800   flex justify-center items-center flex-col opacity-0 ">
+                     <h1 className="text-amber-200 text-2xl" >Blogadda</h1>
+                  </div>
+              </div>
             </div>
-            <div className="Sponsercard m-16">
-             <img src={spon4} alt="Ohcampus img" width="250px" height="250px"/>
+            
+            <div className="wrapper box-border flex items-center   justify-center ">
+              <div className="Sponsercard m-16 flex flex-col">
+                <img src={spon4} alt="Ohcampus img" width="250px" height="250px" className="m-auto"/>
+                <div className="content text-white w-[250px] h-[250px]  absolute bg-orange-800   flex justify-center items-center flex-col opacity-0 ">
+                     <h1 className="text-amber-200 text-2xl">Ohcampus</h1>
+                  </div>
+              </div>
             </div>
-            <div className="Sponsercard m-16">
-             <img src={spon5} alt="Bugsee" width="250px" height="250px"/>
+
+            <div className="wrapper box-border flex items-center   justify-center ">
+              <div className="Sponsercard m-16 flex flex-col">
+                <img src={spon5} alt="Bugsee" width="250px" height="250px" className="m-auto"/>
+                <div className="content text-white w-[250px] h-[250px]  absolute bg-orange-800  flex justify-center items-center flex-col opacity-0 ">
+                     <h1 className="text-amber-200 text-2xl">Bugsee</h1>
+                  </div>
+              </div>
             </div>
-            <div className="Sponsercard m-16">
-             <img src={spon6} alt="Cloudspolit" width="250px" height="250px"/>
+
+            <div className="wrapper box-border flex items-center   justify-center ">
+              <div className="Sponsercard m-16 flex flex-col">
+                <img src={spon6} alt="Cloudspolit" width="250px" height="250px" className="m-auto"/>
+                <div className="content text-white w-[250px] h-[250px]  absolute bg-orange-800   flex justify-center items-center flex-col opacity-0 ">
+                     <h1 className="text-amber-200 text-2xl">Cloudsploit</h1>
+                  </div>
+              </div>
             </div>
-            <div className="Sponsercard m-16">
-             <img src={spon7} alt="Wazirx" width="250px" height="250px"/>
+
+            <div className="wrapper box-border flex items-center   justify-center ">
+              <div className="Sponsercard m-16 flex flex-col">
+                <img src={spon7} alt="Wazirx" width="250px" height="250px" className="m-auto"/>
+                <div className="content text-white w-[250px] h-[250px]  absolute bg-orange-800 flex justify-center items-center flex-col opacity-0 ">
+                     <h1 className="text-amber-200 text-2xl">Wazirx</h1>
+                  </div>
+              </div>
             </div>
-            <div className="Sponsercard m-16">
-             <img src={spon1} alt="Insyst Labs" width="250px" height="20px"/>
+
+            <div className="wrapper box-border flex items-center   justify-center ">
+              <div className="Sponsercard m-16 flex flex-col">
+                <img src={spon1} alt="Insyst Labs" width="250px" height="20px" className="m-auto"/>
+                <div className="content text-white w-[250px] h-[65px]  absolute bg-orange-800  flex justify-center items-center flex-col opacity-0 ">
+                     <h1 className="text-amber-200 text-2xl">Insyst Labs</h1>
+                  </div>
+              </div>
             </div>
 
             

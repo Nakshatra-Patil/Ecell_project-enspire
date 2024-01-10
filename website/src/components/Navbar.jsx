@@ -19,7 +19,7 @@ export const Navbar =()=>{
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/events">Events</NavLink></li>
                 <li><NavLink to="/sponsers">Sponsers</NavLink></li>
-                <li><NavLink to="/team">Team</NavLink></li>
+                {/* <li><NavLink to="/">Team</NavLink></li> */}
             </ul>
         </nav>
     )

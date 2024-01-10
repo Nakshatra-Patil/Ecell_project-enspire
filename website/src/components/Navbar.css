@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 .active{
     color:orangered;
 }
@@ -11,11 +12,13 @@ nav{
     top:0;
     
 }
-nav.title{
+.title{
     display:flex;
     font-size: 1.5rem;
     margin-left: 2rem;
-    font-weight: bold;
+    
+    font-family: 'Acme', sans-serif;
+    
 }
 nav ul {
     display:flex;
@@ -26,6 +29,7 @@ nav ul li a{
     padding:1rem;
     margin:0 2rem;
     border-radius:0.5rem ;
+    font-family: 'Acme', sans-serif;
 }
 nav ul li a:hover{
     color: orangered;
@@ -81,4 +85,8 @@ nav .menu span{
     }
 
 
+}
+*{
+    /* font-family: 'Acme', sans-serif; */
+    font-size:large;
 }
